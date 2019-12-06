@@ -1,6 +1,5 @@
 provider "google" {
-#  credentials = file(var.credentials_file)
-  credentials = file(var.GOOGLE_APPLICATION_CREDENTIALS)
+  credentials = file(var.credentials_file)
 
   project = var.project
   region  = var.region
